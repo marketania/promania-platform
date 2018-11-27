@@ -12,7 +12,7 @@
 
 Promania is a social platform built on today's most cutting edge web technologies and best practices to deliver high performance web software and smooth user experience across all devices. 
 
-* Promania is a boilerplate project that uses react, redux and firebase. It has all "Most Wanted" features you need for a full functional Progressive Web Application. The best part is that it is based on to main parts:
+* Promania is a boilerplate project. It has all "Most Wanted" features you need for a full functional Progressive Web Application. The best part is that it is based on to main parts:
 
 * CRA - Create React App which is a very minimalistic boilerplate for react projects but with all webpack, babel and other tools and libraries setup for you. It is maintained by a great team from Facebook
 rmw-shell - The part that goes further than CRA. This one has all the main parts that a new application needs. The best about it is that it gets updated even when you have started your new project and added new parts to it. That way we can ensure that all projects get the needed updates.
@@ -22,7 +22,7 @@ rmw-shell - The part that goes further than CRA. This one has all the main parts
 * Material UI
 * Code splitting
 * Redux implementation
-* Firebase to redux sync
+* Cloud to redux sync
 * Authentication
 * Authorization
 * Push notifications UI integration
@@ -45,35 +45,35 @@ Re-engageable - Makes re-engagement easy through features like push notification
 Installable - Allows users to add apps they find most useful to their home screen without the hassle of an app store.
 Linkable - Easily share the application via URL, does not require complex installation.
 
-![Firebase Cloud Storage](./img/firebase2.png "Firebase Cloud Storage")
+![Cloud Storage](./img/firebase2.png "Firebase Cloud Storage")
 
-## Firebase Cloud Authentication
+## Cloud Authentication
 
-Firebase Authentication is the he recommended way to add a complete sign-in system to your app.
+Cloud Authentication is the he recommended way to add a complete sign-in system to your app.
 
-FirebaseUI provides a drop-in auth solution that handles the UI flows for signing in users with email addresses and passwords, phone numbers, and with popular federated identity providers, including Google Sign-In and Facebook Login.
+CloudUI provides a drop-in auth solution that handles the UI flows for signing in users with email addresses and passwords, phone numbers, and with popular federated identity providers, including Google Sign-In and Facebook Login.
 
-The FirebaseUI Auth component implements best practices for authentication on mobile devices and websites, which can maximize sign-in and sign-up conversion for your app. It also handles edge cases like account recovery and account linking that can be security sensitive and error-prone to handle correctly.
+The CloudUI Auth component implements best practices for authentication on mobile devices and websites, which can maximize sign-in and sign-up conversion for your app. It also handles edge cases like account recovery and account linking that can be security sensitive and error-prone to handle correctly.
 
-FirebaseUI can be easily customized to fit in with the rest of your app's visual style, and it is open source, so you aren't constrained in realizing the user experience you want.
-![Firebase Cloud Authentication](./img/auth.png "Firebase Cloud Authentication")
+CloudUI can be easily customized to fit in with the rest of your app's visual style, and it is open source, so you aren't constrained in realizing the user experience you want.
+![Cloud Authentication](./img/auth.png "Cloud Authentication")
 
-## Firebase Cloud Hosting
+## Cloud Hosting
 
-Firebase Hosting is production-grade web content hosting for developers. With a single command, you can quickly and easily deploy web apps and serve both static and dynamic content to a global content delivery network (CDN).
+Cloud Hosting is production-grade web content hosting for developers. With a single command, you can quickly and easily deploy web apps and serve both static and dynamic content to a global content delivery network (CDN).
 
-## Firebase Cloud Functions
+## Cloud Functions
 
-Firebase Functions is a hosted, private, and scalable Node.js environment where you can run JavaScript code. [Cloud Functions for Firebase](https://firebase.google.com/features/functions) integrates the Firebase platform by letting you write code that responds to events and invokes functionality exposed by other Firebase features.
-![Firebase Cloud Hosting](./img/firebase3.png "Firebase Cloud Hosting")
+Cloud Functions is a hosted, private, and scalable Node.js environment where you can run JavaScript code. [Cloud Functions](https://firebase.google.com/features/functions) integrates the cloud platform by letting you write code that responds to events and invokes functionality exposed by other cloud features.
+![Cloud Hosting](./img/firebase3.png "Cloud Hosting")
 
-## Firebase Cloud Storage
+## Cloud Storage
 
-Firebase Cloud Storage is a powerful, simple, and cost-effective object storage service built for Google scale. The Firebase SDKs for Cloud Storage add Google security to file uploads and downloads for your Firebase apps, regardless of network quality. You can use our SDKs to store images, audio, video, or other user-generated content. On the server, you can use Google Cloud Storage, to access the same files.
+Cloud Storage is a powerful, simple, and cost-effective object storage service built for Google scale. The Cloud SDKs for Cloud Storage add Google security to file uploads and downloads for your Cloud apps, regardless of network quality. You can use our SDKs to store images, audio, video, or other user-generated content. On the server, you can use Google Cloud Storage, to access the same files.
 
-## Firebase Realtime Database
+## Cloud Realtime Database
 
-Firebase Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
+Cloud Realtime Database is a cloud-hosted database. Data is stored as JSON and synchronized in realtime to every connected client. When you build cross-platform apps with our iOS, Android, and JavaScript SDKs, all of your clients share one Realtime Database instance and automatically receive updates with the newest data.
 
 ## Material UI Design
 
